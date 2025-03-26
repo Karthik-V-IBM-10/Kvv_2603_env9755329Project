@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+services:
+- serviceName: project.kvv_2603_env9755329.integrations:refdaf
+  packages:
+  - name: Kvv_2603_env9755329Project
+    version: "1.0"
+- serviceName: project.kvv_2603_env9755329.referencedata:ref1
+  packages:
+  - name: Kvv_2603_env9755329Project
+    version: "1.0"
